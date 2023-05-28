@@ -2,7 +2,6 @@ import './App.css'
 import styled from 'styled-components'
 import Nav from './components/Nav'
 import PictureGrid from './PictureGrid'
-import PictureCard from './components/PictureCard'
 
 function App() {
 	return (
@@ -10,7 +9,6 @@ function App() {
 			<Wrapper>
 				<Nav/>
 				<PictureGrid/>
-				<PictureCard/>
 			</Wrapper>
 		</>
 	)

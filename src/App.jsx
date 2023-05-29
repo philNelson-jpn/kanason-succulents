@@ -1,7 +1,7 @@
 import './App.css'
 import styled from 'styled-components'
 import Nav from './components/Nav'
-import PictureGrid from './PictureGrid'
+import PictureGrid from './components/PictureGrid'
 
 function App() {
 	return (

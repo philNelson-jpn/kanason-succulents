@@ -7,8 +7,8 @@ function App() {
 	return (
 		<>
 			<Wrapper>
-				<Nav/>
-				<PictureGrid/>
+				<Nav />
+				<PictureGrid />
 			</Wrapper>
 		</>
 	)
@@ -16,14 +16,7 @@ function App() {
 
 const Wrapper = styled.div`
 	position: absolute;
-	inset: 0;
-	height: 200vh;
-	background-color: hsla(
-		155.67567567567568,
-		86.04651162790702%,
-		96.5686274509804%,
-		0.85
-	);
+	top: 0;
 `
 
 export default App
